@@ -71,19 +71,19 @@ const EducationCard = ({ imgSrc, altText, title, details, score }) => {
 
 const EducationSection = () => {
   const containerStyle = {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "flex-start",
-    gap: "20px",
-    padding: "20px",
-    backgroundColor: "#f9f9f9",
-    '@media (max-width: 768px)': {
-      flexDirection: "column",
-    },
+    // display: "flex",
+    // justifyContent: "space-between",
+    // // alignItems: "flex-start",
+    // gap: "20px",
+    // padding: "20px",
+    // backgroundColor: "#f9f9f9",
+    // '@media (max-width: 768px)': {
+    //   flexDirection: "column",
+    // },
   };
 
   return (
-    <div style={containerStyle}>
+    <div className='Disturb' style={containerStyle}>
       <EducationCard
         imgSrc={college}
         altText="JEC Logo"
