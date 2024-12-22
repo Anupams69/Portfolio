@@ -1,0 +1,28 @@
+.homebigbox{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px;
+    gap:20px;
+}
+
+#img{
+    border-radius: 25px;
+    height: 500px;
+    width: 280px;
+    /* border-top: 500px; */
+}
+body{
+    background-color: rgb(30, 30, 30);
+}
+span{
+    color: hsl(60, 61%, 46%);
+}
+
+#hire{
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: large;
+}

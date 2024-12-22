@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed; */
+    height:135px;
+
+}
+body{
+     height:20px;
+     width: 100%;
+     color: aliceblue;
+    height:135px;
+
+}
+.logo{
+    font-size: 80px;
+    color: rgb(203, 203, 45);
+}
+#navbtn{
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    height: 45px;
+    width: 120px;
+}
+nav{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    font-size: 40px;
+    color: aliceblue;
+    /* background-color: antiquewhite;  */
+    font-family:'Times New Roman', Times, serif;
+
+
+   }
+
+ .link{
+    color: aliceblue;
+    /* background-color: aliceblue; */
+ }
+      
