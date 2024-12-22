@@ -15,10 +15,11 @@ const Home = () => {
       color: '#fff',
       gap: '30px',
       flexWrap: 'wrap',
+
     },
     contentBox: {
       flex: '1',
-      minWidth: '300px',
+      minWidth: '300px',    
       maxWidth: '600px',
     },
     heading: {
@@ -57,7 +58,8 @@ const Home = () => {
       objectFit: 'contain',
       // borderRadius: '1px',
       border: '3px solid rgb(228, 236, 238)', // Cyan border
-      boxShadow: '0 12px 16px rgba(2.5, 2.5, 2.5, 2.5)', 
+      boxShadow: '10px 52px 56px rgba(2.5, 2.5, 2.5, 2.5)', 
+      // margin:"0px 80px 0px 0px"
       
     },
   };
