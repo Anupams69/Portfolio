@@ -11,8 +11,9 @@ const Navbar = () => {
       {/* Navigation Links */}
       <nav className="menu">
         <Link className="link" to="/">Home</Link>
-        <Link className="link" to="/about">About</Link>
         <Link className="link" to="/portfolio">Portfolio</Link>
+        <Link className="link" to="/about">About</Link>
+
       </nav>
 
       {/* Contact Button */}

@@ -14,16 +14,18 @@
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    color: #00d4ff;
+    color: #57c6dc;
     text-transform: uppercase;
     margin: 0;
   }
   
   .menu {
     display: flex;
-    gap: 20px;
+    gap: 55px;
+    font-size: 80px;
+
   }
   
   .link {

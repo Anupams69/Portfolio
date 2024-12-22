@@ -15,6 +15,8 @@ const Main = () => {
 
     <BrowserRouter>
          <Navbar/>
+         <br />
+         <br/>
          <hr style={{width:"80%"}} />         
        <Routes>
 

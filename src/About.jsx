@@ -61,8 +61,9 @@ function About() {
   return (
     <div id="about" style={styles.container}>
       <h1 id="whatido" style={styles.heading}>
-        What I Do?
+        My Expertise..
       </h1>
+      <br /><br /><br/>
 
       <div style={styles.contentWrapper}>
         {/* Text Section */}

@@ -55,7 +55,9 @@ const Home = () => {
       width: '400px',
       height: '400px', 
       objectFit: 'contain',
-      boxShadow: '0 12px 16px rgba(0, 0, 0, 0.5)', 
+      // borderRadius: '1px',
+      border: '3px solid rgb(228, 236, 238)', // Cyan border
+      boxShadow: '0 12px 16px rgba(2.5, 2.5, 2.5, 2.5)', 
       
     },
   };
@@ -65,7 +67,7 @@ const Home = () => {
       {/* Content Section */}
       <div style={styles.contentBox}>
         <h1 style={styles.heading}>
-          Hello, <br /> I'm <span style={styles.subHeading}>Anupam</span>
+          Hello, <br /> I'm <span style={styles.subHeading}>Anupam Shrivastava</span>
         </h1>
         <div style={styles.animation}>
           <TypeAnimation
