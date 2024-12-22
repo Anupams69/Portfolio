@@ -1,0 +1,33 @@
+.education{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.edu{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid white;
+}
+.clgpic{
+      
+    height: 80px;
+    width: 80px;
+}
+
+.Ed{
+    width: 60%;
+}
+
+.resumebtn{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+}

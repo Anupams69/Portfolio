@@ -1,0 +1,107 @@
+#formid{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+
+}
+
+
+
+.form 
+{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 20px 1px rgb(215, 211, 211);
+    border-radius: 5px;
+    /* background-color: rgb(84, 102, 80); */
+}
+
+.form div 
+{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form h1{
+    margin-bottom: 20px;
+}
+
+.form div input{
+
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid blue;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form div button{
+
+    width: 80%;
+    border-radius: 10px;
+    padding: 13px;
+    border: none;
+    border:2px solid rgb(67, 220, 20);
+    color: rgb(250, 245, 245);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: transparent;
+    transition: all,5s;
+    margin-left: 50px;
+}
+
+.form div butto:active{
+    background-color: rgb(67, 220, 20);
+    color: white;
+}
+
+.form div button:hover{
+    background-color: rgb(20, 220, 110);
+    color: white;
+}
+
+.form .message{
+    width: 100%;
+    color: red;
+}
+
+.cicons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    width: 100%;
+    /* height: 200px;
+    width: 1050px; */
+    font-size: 50px;
+    color: aliceblue;
+    /* background-color: white; */
+    
+ }
+/* 
+.linkicons{
+    height: 500px;
+    width: 250px;
+}  */
+  #topicons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
