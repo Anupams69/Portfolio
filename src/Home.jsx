@@ -75,13 +75,13 @@ const Home = () => {
         <div style={styles.animation}>
           <TypeAnimation className='animat'
             sequence={[
-              'MERN Stack Developer',
+              'MERN fullStack ',
               500,
               'Web Designer',
               500,
               'UI/UX Designer',
               500,
-              'Backend Developer',
+              'Backend Dev',
               500,
             ]}
             wrapper="span"
@@ -89,7 +89,7 @@ const Home = () => {
             repeat={Infinity}
           />
         </div>
-        {/* <br/> */}
+        <br/>
         {/* <br /> */}
         <p className='change1' style={styles.paragraph}>
           Dynamic and highly motivated Full Stack Developer with a strong
