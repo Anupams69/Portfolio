@@ -9,6 +9,9 @@ flex-direction: column;
 
 }
 
+body{
+    font-weight: 700;
+}
 
 
 .form 
@@ -23,6 +26,7 @@ flex-direction: column;
     box-shadow: 1px 1px 20px 1px rgb(215, 211, 211);
     border-radius: 5px;
     /* background-color: rgb(84, 102, 80); */
+    /* font-weight: 800; */
 }
 
 .form div 

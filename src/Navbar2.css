@@ -1,0 +1,140 @@
+/* General Styles */
+.navbar {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 10px 20px; */
+    /* background-color: #333; */
+    /* color: white; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: rgba(9, 9, 9, 0.826); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    height:40px
+  }
+  /* } */
+  
+  .logo {
+    font-size: 2.0em;
+    font-weight: 900;
+  }
+  
+  /* Navigation Links */
+  .menu {
+    display: flex;
+    gap: 40px;
+    transition: transform 0.9s ease-in-out;
+  }
+  
+  .menu .link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    gap: 15px;
+
+  }
+  
+  .menu .link:hover {
+    /* background: linear-gradient(45deg, #2575fc, #6a11cb);  */
+    color: #007bff;
+
+    transition: 0.3s 0.3s ease-in-out; 
+
+  }
+
+
+
+
+
+  
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10;
+  }
+  
+  .menu.hidden {
+    display: none;
+  }
+  
+  /* Contact Button */
+  #navbtn {
+    /* background-color: #007bff; */
+  background: #4CAF50; 
+
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  #navbtn:hover {
+    /* background: linear-gradient(45deg, #2575fc, #6a11cb);  */
+    background-color: #007bff;
+  /* background: #4CAF50;  */
+
+
+    transition: 0.3s 0.3s ease-in-out; 
+
+  }
+  
+  /* Burger Icon */
+  .burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .burger .line.open {
+    background-color: #ff4757;
+  }
+  
+  .burger .line:nth-child(1).open {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .burger .line:nth-child(2).open {
+    opacity: 0;
+  }
+  
+  .burger .line:nth-child(3).open {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .burger {
+      display: flex;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  }
+  

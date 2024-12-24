@@ -13,6 +13,7 @@
     justify-content: center;
     flex-direction: column;
     border: 5px solid white;
+    
 }
 .clgpic{
       
@@ -32,6 +33,18 @@
     text-align: center;
 }
 
+
+ /* .resumebtn:hover { */
+    /* background: linear-gradient(45deg, #2575fc, #6a11cb);  */
+    /* background-color: #007bff; */
+  /* background: #4CAF50;  */
+
+
+    /* transition: 0.3s 0.3s ease-in-out;  */
+
+  /* } */
+   
+
 .Disturb{
 
     display: flex;
@@ -41,6 +54,7 @@
     padding: "20px";
     flex-direction: row;
     background-color: "#f9f9f9";
+    font-weight: 600;
 
     
 }
@@ -60,3 +74,5 @@
   }
 
 
+
+ 

@@ -153,7 +153,7 @@ const Portfolio = () => {
       marginTop: '30px',
     },
 
-    
+
 
     card: {
       margin: '10px',
@@ -267,80 +267,80 @@ const Portfolio = () => {
           </div>
         ))}
       </Slider>
-      <br /><br/>
+      <br /><br />
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Projects</h2>
 
-             
-      <div style={styles.projectSection}>
-  <h1 style={styles.projectTitle}>Food Delivery App</h1>
-  <p style={styles.projectDescription}>
-    HTML, CSS, JavaScript, React.js: Developed a food delivery app using
-    React.js to create a seamless user experience for ordering food. 
-    Implemented features such as menu browsing, order placement, and payment integration.
-  </p>
-  <br></br>
-  <div style={styles.buttonContainer}>
-    <a href="https://github.com/Anupams69/Foodapp.git" style={styles.projectButton}>
-      Github Link
-    </a>
-    <a href="https://foodapp-rho-roan.vercel.app/" style={styles.projectButton}>
-      Vercel
-    </a>
-  </div>
-  <br></br>
-  <hr></hr>
-  <h1 style={styles.projectTitle}>Creation of Movie Search Application</h1>
-  <p style={styles.projectDescription}>
-    An OMDB movie application using React.js, JavaScript, which contains all
-    the description and uses the useReducer functionality to manage multiple states.
-  </p>
-  <br></br>
-  <div style={styles.buttonContainer}>
-    <a href="https://github.com/Anupams69/Omdbapp.git" style={styles.projectButton}>
-      Github Link
-    </a>
-  </div>
-  <br></br>
-  <hr></hr>
-  <h1 style={styles.projectTitle}>Creation of Music Player</h1>
-  <p style={styles.projectDescription}>
-    Created a Music Player with the help of React.js, which holds the
-    information for the music items you wish to play, manages multiple states,
-    and provides a better user experience.
-  </p>
-  <br></br>
-  <div style={styles.buttonContainer}>
-    <a href="https://github.com/Anupams69/React-Musicplayer.git" style={styles.projectButton}>
-      Github Link
-    </a>
-  </div>
-  <br></br>
-  <hr></hr>
-  
-  <h1 style={styles.projectTitle}> AWS Web App Deployment </h1>
-  <p style={styles.projectDescription}>
-  Deployed and hosted a responsive web application by  
-uploading an index.html file on AWS S3, ensuring high 
-availability and accessibility through scalable cloud 
-infrastructure. 
-  </p>
-  <br></br>
-  <div style={styles.buttonContainer}>
-    <a href=" https://jaishrivastava.s3.amazonaws.com/index.html " style={styles.projectButton}>
-      AWS S3 Link
-    </a>
-    <br/>
-    <br/>
-  </div>
+
+      <div classname="project"style={styles.projectSection}>
+        <h1 style={styles.projectTitle}>Food Delivery App</h1>
+        <p style={styles.projectDescription}>
+          HTML, CSS, JavaScript, React.js: Developed a food delivery app using
+          React.js to create a seamless user experience for ordering food.
+          Implemented features such as menu browsing, order placement, and payment integration.
+        </p>
+        <br></br>
+        <div style={styles.buttonContainer}>
+          {/* <a href="https://github.com/Anupams69/Foodapp.git" style={styles.projectButton}>
+            Github Link
+          </a> */}
+          <a href="https://foodapp-rho-roan.vercel.app/" style={styles.projectButton}>
+            Vercel Link
+          </a>
+        </div>
+        <br></br>
+        <hr></hr>
+        <h1 style={styles.projectTitle}>Creation of Movie Search Application</h1>
+        <p style={styles.projectDescription}>
+          An OMDB movie application using React.js, JavaScript, which contains all
+          the description and uses the useReducer functionality to manage multiple states.
+        </p>
+        <br></br>
+        <div style={styles.buttonContainer}>
+          <a href="https://github.com/Anupams69/Omdbapp.git" style={styles.projectButton}>
+            Github Link
+          </a>
+        </div>
+        <br></br>
+        <hr></hr>
+        <h1 style={styles.projectTitle}>Creation of Music Player</h1>
+        <p style={styles.projectDescription}>
+          Created a Music Player with the help of React.js, which holds the
+          information for the music items you wish to play, manages multiple states,
+          and provides a better user experience.
+        </p>
+        <br></br>
+        <div style={styles.buttonContainer}>
+          <a href="https://github.com/Anupams69/React-Musicplayer.git" style={styles.projectButton}>
+            Github Link
+          </a>
+        </div>
+        <br></br>
+        <hr></hr>
+
+        <h1 style={styles.projectTitle}> AWS Web App Deployment </h1>
+        <p style={styles.projectDescription}>
+          Deployed and hosted a responsive web application by
+          uploading an index.html file on AWS S3, ensuring high
+          availability and accessibility through scalable cloud
+          infrastructure.
+        </p>
+        <br></br>
+        <div style={styles.buttonContainer}>
+          <a href=" https://jaishrivastava.s3.amazonaws.com/index.html " style={styles.projectButton}>
+            AWS S3 Link
+          </a>
+          <br />
+          <br />
+        </div>
 
 
-  
-</div>
-<br /><br />
-      
-<h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Education</h2>
 
-<EducationSection />
+      </div>
+      <br /><br />
+
+      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Education</h2>
+
+      <EducationSection />
 
 
       {/* <div  className= "Ed"style={styles.education}>
@@ -356,9 +356,9 @@ infrastructure.
 
 
       {/* <div  className= "Ed"style={styles.education}> */}
-         
-        {/* <img src={college} alt="JEC Logo" style={styles.educationImage} /> */}
-        {/* <h2>Education Details</h2>
+
+      {/* <img src={college} alt="JEC Logo" style={styles.educationImage} /> */}
+      {/* <h2>Education Details</h2>
         <p>
           Matriculation Xth<br />
           Sacred Heart Convent School<br />
@@ -366,11 +366,11 @@ infrastructure.
         </p>
         <p>CGPA:7.2</p>
       </div> */}
-      
+
       {/* <div className= "Ed"style={styles.education}> */}
 
-        {/* <img src={college} alt="JEC Logo" style={styles.educationImage} /> */}
-        {/* <h2>Education Details</h2>
+      {/* <img src={college} alt="JEC Logo" style={styles.educationImage} /> */}
+      {/* <h2>Education Details</h2>
         <p>
           Intermediete XIIth (PCM)<br />
           Sacred Heart Convent School<br />
@@ -379,15 +379,15 @@ infrastructure.
         <p>Percentage: 68.6%</p>
       </div> */}
 
-        <br /><br />
+      <br /><br />
 
-        <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Visit My Resume.</h2>
-        <div className='resumebtn'>
+      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Visit My Resume.</h2>
+      <div className='resumebtn'>
         <a href="https://drive.google.com/drive/folders/1SPz4ZuiB7LaA5bSOdHU31LZ-dwbP8Nam" rel="noreferrer" target='_blank' style={styles.resumeButtonFooter}>
-          Get Resume
+          Visit Resume 
         </a>
-        </div>
-              
+      </div>
+
     </div>
   );
 };

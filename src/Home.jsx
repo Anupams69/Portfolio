@@ -43,6 +43,7 @@ const Home = () => {
       lineHeight: '1.8',
       color: '#d9d9d9',
       marginTop: '15px',
+      
     },
     imageBox: {
       flex: '1',
@@ -72,7 +73,7 @@ const Home = () => {
           Hello, <br /> I'm <span style={styles.subHeading}>Anupam Shrivastava</span>
         </h1>
         <div style={styles.animation}>
-          <TypeAnimation
+          <TypeAnimation className='animat'
             sequence={[
               'MERN Stack Developer',
               500,
@@ -88,7 +89,9 @@ const Home = () => {
             repeat={Infinity}
           />
         </div>
-        <p style={styles.paragraph}>
+        {/* <br/> */}
+        {/* <br /> */}
+        <p className='change1' style={styles.paragraph}>
           Dynamic and highly motivated Full Stack Developer with a strong
           foundation in front-end and back-end development, certified in the
           MERN Stack. Proficient in HTML, CSS, JavaScript, React.js, Node.js,

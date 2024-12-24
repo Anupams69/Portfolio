@@ -80,10 +80,23 @@
       padding: 8px 16px;
     }
   
-  
+/*   
   @media screen and (min-width: 768px) {
     .menu {
-      display: flex;
+      display: none;
     }
-  }
+  } */
+
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      padding: 10px;
+      border-radius: 8px;
+    }
   
+  }

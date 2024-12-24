@@ -71,6 +71,8 @@
 body{
   /* background-color: black; */
   /* background: 'linear-gradient(135deg, #1e3c72, #C5A467)', */
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364)
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+  font-weight: 500;
 
 }
